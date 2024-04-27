@@ -1,0 +1,10 @@
+<section class="developer-section section-white">
+  <div class="container">
+    <ul class="developer-list">
+      <app-developercard
+        *ngFor="let developer of developerList"
+        [developer]="developer"
+      ></app-developercard>
+    </ul>
+  </div>
+</section>

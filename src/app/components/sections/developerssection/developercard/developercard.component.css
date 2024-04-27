@@ -1,0 +1,9 @@
+.developer-card img {
+  width: 100%;
+  max-width: 262.5px;
+}
+
+.developer-card h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,15 @@
+.flex-box {
+  min-height: 65vh;
+  padding: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media (max-width: 1024px) {
+  .flex-box {
+    height: 70vh;
+  }
+}
